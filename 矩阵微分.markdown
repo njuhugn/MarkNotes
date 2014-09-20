@@ -1,0 +1,22 @@
+# 矩阵微分
+
+标签（空格分隔）： 矩阵 微分-导数-偏导-梯度 index
+
+---
+
+##乘法
+$$(Ax)_i = \Sigma_k a_{ik}x_k.$$
+
+$$\quad (y^\intercal A)_i = \Sigma_k a_{ki}y_k.$$
+
+$$(y^\intercal Ax) = \Sigma_j y_j(\Sigma_k a_{jk}x_k) = \sum_{j,k} a_{jk}y_j x_k.$$
+
+##微分
+$$\frac{\partial(Ax)}{\partial x} = A.$$
+
+$$\frac{\partial(y^\intercal Ax)}{\partial x} = y^\intercal A, \quad \frac{\partial(y^\intercal Ax)}{\partial y} = (Ax)^\intercal.$$
+
+$$\frac{\partial(x^\intercal Ax)}{\partial x} = x^\intercal A + (Ax)^\intercal  \stackrel{A^\intercal = A}{=} 2x^\intercal A.$$
+
+
+
